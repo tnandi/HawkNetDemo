@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkNet", "HawkNet\HawkNet.csproj", "{F997CE59-EEE3-42E4-B41A-B32985994603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Example\Example.csproj", "{382359F1-1EC6-4E5F-BD37-38A46BA02A10}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{842C064A-848A-4F11-9504-A20400DA466C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HawkNet.WebApi", "HawkNet.WebApi\HawkNet.WebApi.csproj", "{FCD8173A-2D39-4F10-A4DF-230B4B649DBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronNet", "Ironnet\IronNet.csproj", "{527600CC-66E6-4043-B027-60EF88E4806A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Signed|Any CPU = Signed|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F997CE59-EEE3-42E4-B41A-B32985994603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F997CE59-EEE3-42E4-B41A-B32985994603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F997CE59-EEE3-42E4-B41A-B32985994603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F997CE59-EEE3-42E4-B41A-B32985994603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F997CE59-EEE3-42E4-B41A-B32985994603}.Signed|Any CPU.ActiveCfg = Signed|Any CPU
+		{F997CE59-EEE3-42E4-B41A-B32985994603}.Signed|Any CPU.Build.0 = Signed|Any CPU
+		{382359F1-1EC6-4E5F-BD37-38A46BA02A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{382359F1-1EC6-4E5F-BD37-38A46BA02A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{382359F1-1EC6-4E5F-BD37-38A46BA02A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{382359F1-1EC6-4E5F-BD37-38A46BA02A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{382359F1-1EC6-4E5F-BD37-38A46BA02A10}.Signed|Any CPU.ActiveCfg = Signed|Any CPU
+		{382359F1-1EC6-4E5F-BD37-38A46BA02A10}.Signed|Any CPU.Build.0 = Signed|Any CPU
+		{FCD8173A-2D39-4F10-A4DF-230B4B649DBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD8173A-2D39-4F10-A4DF-230B4B649DBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD8173A-2D39-4F10-A4DF-230B4B649DBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD8173A-2D39-4F10-A4DF-230B4B649DBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD8173A-2D39-4F10-A4DF-230B4B649DBB}.Signed|Any CPU.ActiveCfg = Signed|Any CPU
+		{FCD8173A-2D39-4F10-A4DF-230B4B649DBB}.Signed|Any CPU.Build.0 = Signed|Any CPU
+		{527600CC-66E6-4043-B027-60EF88E4806A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{527600CC-66E6-4043-B027-60EF88E4806A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{527600CC-66E6-4043-B027-60EF88E4806A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{527600CC-66E6-4043-B027-60EF88E4806A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{527600CC-66E6-4043-B027-60EF88E4806A}.Signed|Any CPU.ActiveCfg = Release|Any CPU
+		{527600CC-66E6-4043-B027-60EF88E4806A}.Signed|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
